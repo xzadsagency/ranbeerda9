@@ -217,6 +217,72 @@ body{
         Saurabh9xz
     </a>
 </div>
+
+  
+<style>
+#adsSetupBox{
+    position:fixed;
+    bottom:2px;
+    right:2px;
+    z-index:99999;
+
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter:blur(8px);
+
+    padding:2px 1px;
+    border-radius:10px;
+    text-align:center;
+
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+#adsSetupBox .title{
+    color:#fff;
+    font-size:10px;
+    margin-bottom:-5px;
+    font-family:Arial,sans-serif;
+}
+
+.blink-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:8px;
+
+    padding:2px 4px;
+    border-radius:20px;
+
+    animation:blinkColor 3s infinite;
+}
+
+@keyframes blinkColor{
+    0%{
+        background:#ff0000;
+        box-shadow:0 0 8px #ff0000;
+    }
+    20%{
+        background:#ff9800;
+        box-shadow:0 0 8px #ff9800;
+    }
+    40%{
+        background:#00c853;
+        box-shadow:0 0 8px #00c853;
+    }
+    60%{
+        background:#2196f3;
+        box-shadow:0 0 8px #2196f3;
+    }
+    80%{
+        background:#9c27b0;
+        box-shadow:0 0 8px #9c27b0;
+    }
+    100%{
+        background:#ff0000;
+        box-shadow:0 0 8px #ff0000;
+    }
+}
+</style>
 <script>
 feather.replace();
 
